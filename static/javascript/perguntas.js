@@ -12,9 +12,9 @@ const palavras = [
     "roteador",
     "fibra óptica",
     "4G"
-    ] 
-    
-    const dicas = [
+]
+
+const dicas = [
     "Comunicação à distância.",
     "Conjunto organizado de partes.",
     "Conexões entre pontos.",
@@ -28,4 +28,4 @@ const palavras = [
     "Equipamento que direciona o tráfego de dados entre redes.",
     "Tecnologia que usa luz para transmitir dados a alta velocidade.",
     "Tecnologia de rede móvel."
-    ]
+]
