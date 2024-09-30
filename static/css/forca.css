@@ -1,182 +1,188 @@
 body {
-background-image: url('../images/hello_kitty_azul.jpg');
-font-family: Arial, sans-serif;
-display: flex;
-flex-direction: column;
-margin: 0;
+    background-image: url('../images/tele.png');
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
 }
 
 .container {
-background-color: #83a9d59d;
-border-radius: 8px;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-padding: 20px;
-max-width: 90%;
-width: 45%;
-margin: 20px auto;
-box-sizing: border-box;
+    background-color: #25c3cebb;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 90%;
+    width: 45%;
+    margin: 20px auto;
+    box-sizing: border-box;
 }
 
 #dica {
-color:#1b26c0e3;
-margin-bottom: 20px;
+    color: #1b26c0e3;
+    margin-bottom: 20px;
 }
 
-#palavra { 
-color:#343a40;
-font-weight: bold;
-letter-spacing: 2px;
-margin-bottom: 20px;
+#palavra {
+    color: #343a40;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
 }
 
 #guess {
-width: 100%;
-padding: 10px;
-margin-bottom: 20px;
-box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
 }
 
 .botoes {
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 10px;
-flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 
 .btn {
-padding: 10px 20px;
-font-size: 16px; 
-border-radius: 4px; 
-border: none;
-cursor: pointer;
-text-align: center;
-flex: 1 1 150px; 
-max-width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    flex: 1 1 150px;
+    max-width: 200px;
 }
 
 .btn-primary {
-background-color: #b4d9ff; 
-color: black;
+    background-color: #1e1464;
+    color: #fff;
 }
 
 .btn-primary:hover {
-background-color: #6a91bf;
+    background-color: #5f428f;
 }
 
 /* Espaçamento para status e Letras tentadas */
 #status,
 #attempts {
-font-size: 1.1em;
-color: #1b26c0e3;
-margin-top: 20px;
+    font-size: 1.1em;
+    color: #fff;
+    margin-top: 20px;
 }
 
 #forca {
-width: 150px;
-height: 200px;
-margin: 0 auto;
-position: relative;
-border: 1px solid #333; /* Adiciona uma borda para visualização */
-background-color: #f9f9f9; /* Cor de fundo opcional */
+    width: 150px;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid #333;
+    /* Adiciona uma borda para visualização */
 }
 
 #forca div {
-background-color: blue; 
-position: absolute;
+    background-color: blue;
+    position: absolute;
 }
 
 footer {
-background-color: #005caa;
-color: #fff;
-padding: 15px 0;
-font-size: 18px;
-text-align: center;
-margin-top: auto;
-line-height: 0.9; 
-width: 100%;
+    background-color: #005caa;
+    color: #fff;
+    padding: 15px 0;
+    font-size: 18px;
+    text-align: center;
+    margin-top: auto;
+    line-height: 0.9;
+    width: 100%;
 }
 
 header {
-background-color: #005caa; 
-color: #fff;
-padding: 15px 0;
-text-align: center; 
-margin-bottom: 20px;
+    background-color: #005caa;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 img.senai-logo {
-max-width: 4.4%; 
-height: auto;
-display: block;
-margin: 0 auto;
+    max-width: 4.4%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .display-4 {
-font-size: 2.5rem; /* Tamanho da fonte para telas maiores */
-font-weight: 300;
-line-height: 1.2;
+    font-size: 2.5rem;
+    /* Tamanho da fonte para telas maiores */
+    font-weight: 300;
+    line-height: 1.2;
 }
 
 /* Media Queries para telas menores */
 @media (max-width: 768px) {
-.container {
-width: 90%;
- padding: 15px;
-}
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
 
-.btn {
-flex: 1 1 100%; /* Botões ocupam toda a Largura disponível */ 
-max-width: none; /* Remove a Largura máxima */
-margin-bottom: 10px; /* Espaçamento inferior entre botões empilhados */
-}
+    .btn {
+        flex: 1 1 100%;
+        /* Botões ocupam toda a Largura disponível */
+        max-width: none;
+        /* Remove a Largura máxima */
+        margin-bottom: 10px;
+        /* Espaçamento inferior entre botões empilhados */
+    }
 
-#forca {
-    width: 120px; 
-    height: 200px;
+    #forca {
+        width: 120px;
+        height: 200px;
     }
 
     footer,
     header {
-    padding: 10px 0;
-    font-size: 16px;
+        padding: 10px 0;
+        font-size: 16px;
     }
 
     img.senai-logo {
-    max-width: 30%;
+        max-width: 30%;
     }
 
     .display-4 {
-    font-size: 2rem; /* Ajuste para tablets e dispositivos intermediários */
+        font-size: 2rem;
+        /* Ajuste para tablets e dispositivos intermediários */
+    }
 }
-}
-   
-    @media (max-width: 480px) {
+
+@media (max-width: 480px) {
     .container {
-    width: 95%;
-    padding: 10px;
-}
-    
-#forca {
-    width: 100px; 
-    height: 180px;
+        width: 95%;
+        padding: 10px;
     }
 
-    .btn{
+    #forca {
+        width: 100px;
+        height: 180px;
+    }
+
+    .btn {
         font-size: 14px;
         padding: 8px 16px;
     }
 
     footer,
     header {
-    font-size: 14px;
+        font-size: 14px;
     }
 
     img.senai-logo {
-    max-width: 40%;
+        max-width: 40%;
     }
-    
+
     .display-4 {
-    font-size: 1.5rem; /* Ajuste para dispositivos móveis */
-}
+        font-size: 1.5rem;
+        /* Ajuste para dispositivos móveis */
+    }
 }
